@@ -1,16 +1,12 @@
 {
     "manifest_version": 3,
-    "name": "TVWheel",
-    "version": "1.2.1",
-    "description": "Custom Twitch Colours ",
+    "name": "twitch wheel",
+    "version": "0.1.0",
+    "description": "custom twitch colours",
     "content_scripts": [{
-      "js": ["index.min.js"],
+      "js": ["index.js"],
       "matches": ["https://www.twitch.tv/*"]
-    }],
-    "icons": {
-      "16": "icon16.png",
-      "32": "icon32.png",
-      "48": "icon48.png",
-      "128": "icon128.png"
-    }
-}
+    }]
+   
+  }
+  

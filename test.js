@@ -1,0 +1,2 @@
+console.log('LOOK HERE (not arr): ', document.getElementsByClassName('Layout-sc-nxg1ff-0 jBiZVA about-section__panel--content'));
+console.log('LOOK HERE (arr): ', document.getElementsByClassName('Layout-sc-nxg1ff-0 jBiZVA about-section__panel--content')[0]);
